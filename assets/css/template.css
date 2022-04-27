@@ -4,9 +4,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    text-decoration: none;
-    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial","sans-serif";
-    color: #111111;
+    text-decoration: none;    
 }
 @keyframes pisca {
     0% {opacity: 0.2;}
@@ -191,8 +189,6 @@ body {
     border: 10px inset #dddddd;
     padding: 10px;
     line-height: 30px;
-}
-.candidatos div {
     color: #ffffff;
 }
 .candidatos .vereadores {
@@ -202,4 +198,7 @@ body {
 footer {
     position: absolute;
     bottom: 20px;
+}
+footer a {
+    color: #333333;
 }
